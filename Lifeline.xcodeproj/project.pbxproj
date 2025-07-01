@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112D832F2E11955800785543 /* DayPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D832E2E11955800785543 /* DayPhotosView.swift */; };
 		11DAC3B92E10692400DB5EBA /* LifelineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3B82E10692400DB5EBA /* LifelineApp.swift */; };
 		11DAC3BB2E10692400DB5EBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3BA2E10692400DB5EBA /* ContentView.swift */; };
 		11DAC3BD2E10692500DB5EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DAC3BC2E10692500DB5EBA /* Assets.xcassets */; };
 		11DAC3C02E10692500DB5EBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DAC3BF2E10692500DB5EBA /* Preview Assets.xcassets */; };
+		11DAC3DA2E1069E900DB5EBA /* CreateAlbumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3CF2E1069E900DB5EBA /* CreateAlbumSheet.swift */; };
+		11DAC3DB2E1069E900DB5EBA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3D02E1069E900DB5EBA /* HomeViewModel.swift */; };
+		11DAC3DC2E1069E900DB5EBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3D12E1069E900DB5EBA /* HomeView.swift */; };
+		11DAC3DD2E1069E900DB5EBA /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3D32E1069E900DB5EBA /* Album.swift */; };
+		11DAC3DE2E1069E900DB5EBA /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3D42E1069E900DB5EBA /* Photo.swift */; };
+		11DAC3DF2E1069E900DB5EBA /* FetchPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3D62E1069E900DB5EBA /* FetchPhotos.swift */; };
+		11DAC3E02E1069E900DB5EBA /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3D72E1069E900DB5EBA /* DateUtils.swift */; };
+		11DAC3E12E1069E900DB5EBA /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAC3D92E1069E900DB5EBA /* TimelineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112D832E2E11955800785543 /* DayPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPhotosView.swift; sourceTree = "<group>"; };
 		11DAC3B52E10692400DB5EBA /* Lifeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DAC3B82E10692400DB5EBA /* LifelineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifelineApp.swift; sourceTree = "<group>"; };
 		11DAC3BA2E10692400DB5EBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11DAC3BC2E10692500DB5EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DAC3BF2E10692500DB5EBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11DAC3CF2E1069E900DB5EBA /* CreateAlbumSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAlbumSheet.swift; sourceTree = "<group>"; };
+		11DAC3D02E1069E900DB5EBA /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		11DAC3D12E1069E900DB5EBA /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11DAC3D32E1069E900DB5EBA /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		11DAC3D42E1069E900DB5EBA /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		11DAC3D62E1069E900DB5EBA /* FetchPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchPhotos.swift; sourceTree = "<group>"; };
+		11DAC3D72E1069E900DB5EBA /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		11DAC3D92E1069E900DB5EBA /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		11DAC3E22E106BDD00DB5EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +54,7 @@
 		11DAC3AC2E10692400DB5EBA = {
 			isa = PBXGroup;
 			children = (
+				11DAC3E22E106BDD00DB5EBA /* Info.plist */,
 				11DAC3B72E10692400DB5EBA /* Lifeline */,
 				11DAC3B62E10692400DB5EBA /* Products */,
 			);
@@ -51,6 +71,10 @@
 		11DAC3B72E10692400DB5EBA /* Lifeline */ = {
 			isa = PBXGroup;
 			children = (
+				11DAC3D82E1069E900DB5EBA /* Timeline */,
+				11DAC3CE2E1069E900DB5EBA /* Home */,
+				11DAC3D22E1069E900DB5EBA /* Models */,
+				11DAC3D52E1069E900DB5EBA /* Utils */,
 				11DAC3B82E10692400DB5EBA /* LifelineApp.swift */,
 				11DAC3BA2E10692400DB5EBA /* ContentView.swift */,
 				11DAC3BC2E10692500DB5EBA /* Assets.xcassets */,
@@ -65,6 +89,43 @@
 				11DAC3BF2E10692500DB5EBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11DAC3CE2E1069E900DB5EBA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11DAC3CF2E1069E900DB5EBA /* CreateAlbumSheet.swift */,
+				11DAC3D02E1069E900DB5EBA /* HomeViewModel.swift */,
+				11DAC3D12E1069E900DB5EBA /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11DAC3D22E1069E900DB5EBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11DAC3D32E1069E900DB5EBA /* Album.swift */,
+				11DAC3D42E1069E900DB5EBA /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11DAC3D52E1069E900DB5EBA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				11DAC3D62E1069E900DB5EBA /* FetchPhotos.swift */,
+				11DAC3D72E1069E900DB5EBA /* DateUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		11DAC3D82E1069E900DB5EBA /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				112D832E2E11955800785543 /* DayPhotosView.swift */,
+				11DAC3D92E1069E900DB5EBA /* TimelineView.swift */,
+			);
+			path = Timeline;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DAC3DE2E1069E900DB5EBA /* Photo.swift in Sources */,
 				11DAC3BB2E10692400DB5EBA /* ContentView.swift in Sources */,
 				11DAC3B92E10692400DB5EBA /* LifelineApp.swift in Sources */,
+				112D832F2E11955800785543 /* DayPhotosView.swift in Sources */,
+				11DAC3E12E1069E900DB5EBA /* TimelineView.swift in Sources */,
+				11DAC3DF2E1069E900DB5EBA /* FetchPhotos.swift in Sources */,
+				11DAC3E02E1069E900DB5EBA /* DateUtils.swift in Sources */,
+				11DAC3DA2E1069E900DB5EBA /* CreateAlbumSheet.swift in Sources */,
+				11DAC3DC2E1069E900DB5EBA /* HomeView.swift in Sources */,
+				11DAC3DB2E1069E900DB5EBA /* HomeViewModel.swift in Sources */,
+				11DAC3DD2E1069E900DB5EBA /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +337,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lifeline/Preview Content\"";
+				DEVELOPMENT_TEAM = CS35BFHWHS;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				"INFOPLIST_FILE[sdk=*]" = "$(SRCROOT)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +367,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lifeline/Preview Content\"";
+				DEVELOPMENT_TEAM = CS35BFHWHS;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
