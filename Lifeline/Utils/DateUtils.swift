@@ -16,3 +16,8 @@ extension Date {
     }
 }
 
+let dateFormatter: DateFormatter = {
+    let f = DateFormatter()
+    f.dateStyle = .medium
+    return f
+}()

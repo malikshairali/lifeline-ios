@@ -6,30 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 class HomeViewModel: ObservableObject {
-    @Published var albums: [Album] = []
-    @Published var error: String? = nil
 
-    func createAlbum(name: String, start: Date, end: Date) {
-        // Stub: pretend we check PhotoKit and found photos
-//        let foundPhotos = Bool.random() // Randomly fake if photos found
-//
-//        if foundPhotos {
-            let newAlbum = Album(
-                id: UUID(),
-                title: name,
-                startDate: start,
-                endDate: end,
-                coverImageName: "placeholder" // Replace later with real photo
-            )
-            albums.append(newAlbum)
-//        } else {
-//            error = "No photos found in selected date range."
-//        }
-    }
-
-    func clearError() {
-        error = nil
+    func createAlbum(
+        context: ModelContext,
+        name: String,
+        start: Date,
+        end: Date
+    ) {
+        let album = Album(title: name, startDate: start, endDate: end, coverImage: "")
+        context.insert(album)
     }
 }

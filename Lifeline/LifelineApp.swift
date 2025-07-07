@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct LifelineApp: App {
@@ -13,5 +14,6 @@ struct LifelineApp: App {
         WindowGroup {
             HomeView()
         }
+        .modelContainer(for: Album.self)
     }
 }
